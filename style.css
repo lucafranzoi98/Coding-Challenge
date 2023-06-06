@@ -1,0 +1,68 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+body > div{
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-top: 25px;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+}
+
+header > img{
+    width: 200px;
+}
+
+h1{
+    color: #01dc00;
+}
+
+nav{
+    background-color: #01dc00;
+    text-align: center;
+    padding: 10px;
+}
+
+main > div{
+    color: white;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+input+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr{
+    height: 20px;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 0px;
+    border-style: none;
+}
+
+.orange{
+    background-color: orange;
+    width: 33%;
+}
+
+.green{
+    background-color: green;
+    width: 50%;
+}
+
+.red{
+    background-color: red;
+    width: 20%;
+}
